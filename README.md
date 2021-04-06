@@ -31,11 +31,23 @@ totally fine.
 ## Questions
 * How can you change the ordering of the list? From ascending 
 to descending. Name at least two different methods.
+1.)  Flip comparison operators
+2.) flip the list
+  
 * Can the inner Node class be static? Justify your answer.
+  No
+
 * Can you name the generic placeholder `Placeholder` instead of
 `T`? If yes should you, do it?
+  Yes.
+  No i should use T (style)
+
 * Which benefits does this data structure have?
+  Always sorted
+
 * Which drawbacks does it have? Name a use case.
+Die Liste muss immer wieder durchlaufen werden. -> langsam
+
 ---
 > **NOTES:**
 Write readable and good code. Do not repeate yourself use final,
